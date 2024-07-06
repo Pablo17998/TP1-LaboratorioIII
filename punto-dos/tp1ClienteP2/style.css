@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.divMain {
+    display: flex;
+    position: relative;
+    margin: 4% auto;
+    border: 2px solid darkred;
+    width: 35vw; height: 85vh;
+    justify-content: center;
+}
+.divForm {
+    display: flex;
+    position: relative;
+    /*border: 2px solid #000;*/
+    width: 30vw; height: 70vh;
+    margin: 70px;
+    justify-content: center;
+}
+h2 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    font-size: 35px;
+    margin: 15px auto;
+    text-decoration: underline;
+}
+form {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+form label{
+    display: flex;
+    position: absolute;
+    width: 190px; height: 40px;
+    right: -50px;
+}
+form input {
+    display: flex;
+    position: absolute;
+    width: 250px; height: 40px;
+}
+.lbl1 {
+    display: flex;
+    position: absolute;
+    margin: 20px auto;
+    right: -40px; top: -10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.ip1 {
+    display: flex;
+    position: absolute;
+    bottom: -75px;
+    border: 2px solid rgb(0, 99, 156);
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.lbl2 {
+    display: flex;
+    position: absolute;
+    margin: 20px auto;
+    right: -40px; top: 65px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.ip2 {
+    display: flex;
+    position: absolute;
+    bottom: -150px;
+    border: 2px solid rgb(0, 99, 156);
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.lbl3 {
+    display: flex;
+    position: absolute;
+    margin: 20px auto;
+    right: -40px; top: 135px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.ip3 {
+    display: flex;
+    position: absolute;
+    bottom: -220px;
+    border: 2px solid rgb(0, 99, 156);
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.lbl4 {
+    display: flex;
+    position: absolute;
+    margin: 20px auto;
+    right: -40px; top: 205px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.ip4 {
+    display: flex;
+    position: absolute;
+    bottom: -290px;
+    border: 2px solid rgb(0, 99, 156);
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.lbl5 {
+    display: flex;
+    position: absolute;
+    margin: 20px auto;
+    right: -40px; top: 275px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.ip5 {
+    display: flex;
+    position: absolute;
+    bottom: -360px;
+    border: 2px solid rgb(0, 99, 156);
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+button {
+    display: flex;
+    position: absolute;
+    width: 250px; height: 70px;
+    align-items: center;
+    justify-content: center;
+    top: 382.5px;
+    font-weight: bold;
+    font-size: 25px;
+    background: orange;
+    cursor: pointer;
+}

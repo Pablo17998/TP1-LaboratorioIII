@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Correo Interfaz</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="divMain">
+            <h2>REGISTRO TP1-PUNTO2</h2>
+
+            <div class="divForm">
+                <form action="../correo.php" method="POST">
+                    <label class="lbl1">Nombre</label>
+                    <input class="ip1" type="text" name="nombre">
+    
+                    <label class="lbl2">Apellido</label>
+                    <input class="ip2" type="text" name="apellido">
+                    
+                    <label class="lbl3" for=email>Correo</label>
+                    <input class="ip3" type="email" name="email" required>
+    
+                    <label class="lbl4">Clave</label>
+                    <input class="ip4" type="password" name="clave">
+    
+                    <label class="lbl5">Repita su Clave</label>
+                    <input class="ip5" type="password">
+    
+                    <button type="submit">REGISTRARSE</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
